@@ -11,7 +11,8 @@ gem 'jarowinkler_rb', :git => "https://github.com/tkyshm/jarowinkler_rb.git"
 
 ## Usage
 
-```
+```ruby
+require 'jarowinkler_rb'
 result = JarowinklerRb::comp(str1, str2)
 ```
 
